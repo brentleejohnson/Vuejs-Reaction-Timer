@@ -9,7 +9,7 @@ import Block from "./components/Block.vue";
 
 export default {
   name: "App",
-  components: {},
+  components: { Block },
   data() {
     return {
       isPlaying: false,
