@@ -17,7 +17,12 @@ export default {
       console.log(this.delay);
     }, this.delay);
   },
-  updated() {},
+  updated() {
+    console.log("Component updated");
+  },
+  unmounted() {
+    console.log("Unmounted");
+  },
 };
 </script>
 
